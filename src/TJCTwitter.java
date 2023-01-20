@@ -4,7 +4,6 @@ import java.util.stream.Stream;
 
 public class TJCTwitter {
     public static void main(String[] args) {
-
         
         var list = List.of("turkey", "2", "java");
         Stream<String> infinite = Stream.generate(() -> "TJC");
