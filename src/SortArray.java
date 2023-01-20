@@ -14,7 +14,8 @@ public class SortArray {
             "White",
             "Gibi",
             "Besiktas",
-            "Amiyane"
+            "Amiyane",
+            "Continue"
         };        
     System.out.println("Original: "+Arrays.toString(arrayNumbers));
     Arrays.sort(arrayNumbers);
