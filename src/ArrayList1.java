@@ -3,14 +3,17 @@ import java.util.List;
 
 public class ArrayList1 {
     public static void main(String[] args) {
-        List<String> list_Strings = new ArrayList<String>();
-        list_Strings.add("Red");
-        list_Strings.add("Green");
-        list_Strings.add("Orange");
-        list_Strings.add("White");
-        list_Strings.add("Black");
-        for (String element : list_Strings) {
+        List<String> listString = new ArrayList<String>();
+        listString.add("Red");
+        listString.add("Green");
+        listString.add("Orange");
+        listString.add("White");
+        listString.add("Black");
+        for (String element : listString) {
             System.out.println(element);
-            }
+        }
+
+        listString.remove(2);
+        System.out.println("After removing third element from the list: " + listString);
     }
 }
