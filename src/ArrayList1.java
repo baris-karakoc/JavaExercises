@@ -9,6 +9,8 @@ public class ArrayList1 {
         list_Strings.add("Orange");
         list_Strings.add("White");
         list_Strings.add("Black");
-        System.out.println(list_Strings);
+        for (String element : list_Strings) {
+            System.out.println(element);
+            }
     }
 }
